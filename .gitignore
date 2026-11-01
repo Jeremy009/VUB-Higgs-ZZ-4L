@@ -1,0 +1,17 @@
+# ROOT ntuples and macro output (the ntuples are not part of this repository)
+*.root
+analysis/Simulations/
+analysis/Data/
+analysis/Figures/
+analysis/Debugging/
+*.eps
+
+# LaTeX build files
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+
+# macOS
+.DS_Store
