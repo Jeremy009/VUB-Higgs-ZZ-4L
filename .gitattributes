@@ -1,0 +1,5 @@
+# ROOT macros use the .C extension: count them as C++, not C
+*.C linguist-language=C++
+
+# Keep the LaTeX thesis out of the language statistics
+thesis/** linguist-documentation
